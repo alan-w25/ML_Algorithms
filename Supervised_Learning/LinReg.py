@@ -8,6 +8,9 @@ import ssl
 
 ssl._create_default_https_context = ssl._create_unverified_context
 
+'''
+Implementation of Linear Regression algorithm with closed form estimation of Beta
+'''
 class lin_reg: 
 
     def fit(self, X, Y): 

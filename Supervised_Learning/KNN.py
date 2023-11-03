@@ -17,6 +17,9 @@ def distance(p1, p2):
     p1,p2 = np.array(p1), np.array(p2)
     return np.sqrt(sum((p1-p2)**2))
 
+'''
+Implementation of K-nearest neighbors algorithm for classification and for regression
+'''
 class KNN: 
 
     #initializes KNN class
